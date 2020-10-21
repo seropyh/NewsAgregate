@@ -1,10 +1,10 @@
-package com.example.lesson22;
+package com.example.newsagregate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Lesson22ApplicationTests {
+class NewsagregateApplicationTests {
 
 	@Test
 	void contextLoads() {
