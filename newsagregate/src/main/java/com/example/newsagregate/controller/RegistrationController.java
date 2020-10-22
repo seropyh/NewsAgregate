@@ -19,10 +19,7 @@ public class RegistrationController {
 
     @PostMapping("/registration")
     public String registrationHandlerPage(Model model, @ModelAttribute FormUsers form) {
-        System.out.println(form.getLogin());
-        System.out.println(form.getPassword());
-        System.out.println(form.getAge());
-        if (!UsersController.users.containsKey(form.getLogin())) {
+        if (UsersController.users.containsKey(form.getLogin())) {
             model.addAttribute("error", true);
             model.addAttribute("form", new FormUsers());
             return "registration";
