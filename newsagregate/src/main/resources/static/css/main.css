@@ -11,6 +11,12 @@ body {
     font-size:16px
 }
 
+.mfg{
+
+    margin-top: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
+}
+
 .arrs{
     vertical-align: inherit;
     vertical-align: inherit;
