@@ -2158,7 +2158,8 @@ textarea.form-control {
 }
 
 .form-group {
-    margin-bottom: 1rem;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 .form-text {
@@ -5992,8 +5993,6 @@ a.close.disabled {
 .modal-dialog-centered::before {
     display: block;
     height: calc(100vh - 1rem);
-    height: -webkit-min-content;
-    height: -moz-min-content;
     height: min-content;
     content: "";
 }

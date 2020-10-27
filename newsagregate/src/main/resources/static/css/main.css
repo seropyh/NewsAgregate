@@ -19,6 +19,11 @@ body {
 
 }
 
+.form {
+    margin: 5rem !important;
+    padding: 5rem !important;
+}
+
 .nav-item {
     font-family: "Marmelad", sans-serif ;
     justify-content: center;
