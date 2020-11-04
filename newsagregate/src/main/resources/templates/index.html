@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+
+    <meta name="generator" content="Jekyll v4.1.1">
+
+    <title>Main</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/offcanvas/">
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+    <link rel="stylesheet" th:href="@{/css/fontawesome.all}"/>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}"/>
+    <link rel="stylesheet" th:href="@{/css/offcanvas.css}"/>
+
+
+
+
+
+    <!-- Bootstrap core CSS -->
+    <script src="https://kit.fontawesome.com/8135b01ab7.js" crossorigin="anonymous"></script>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+
+
+    <!-- Custom styles for this template -->
+
+
+    <script src="https://kit.fontawesome.com/8135b01ab7.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body class="bg-light">
+
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <img src="/images/logo.png"/>
+
+    <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Main <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/registration">Sign up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/authorization">Sign in</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/greeting">Share News</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="enter" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+        </form>
+    </div>
+</nav>
+
+<div class="nav-scroller bg-white shadow-sm">
+
+</div>
+
+<main role="main" class="container">
+    <div class="d-flex align-items-center p-3 my-3 rounded shadow-sm">
+        <!-- <img class="mr-3" src="../assets/brand/bootstrap-outline.svg" alt="" width="48" height="48"> -->
+        <div class="lh-100">
+
+            <div class="form-group">
+
+                <label>Show:</label>
+
+                <a href="" style="text-decoration: none; font-weight: normal;" class="orderByLabel" id="latest"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  latest News</font></font></a>
+                <a href="" class="orderByLabel" id="topWeek" style="text-decoration: underline; font-weight: bold;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Week's News </font></font></a>
+                <a href="" class="orderByLabel" id="topMonth" style="text-decoration: none; font-weight: normal;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Three Months Latest News</font></font></a>
+            </div>
+            <div class="form-group">
+                <label>Tags:</label>
+                <span class="label label-primary categoryLabel" id="6500" style="cursor: pointer; text-decoration: none;" title="toggle category visibility">Politics</span><span class="label label-primary categoryLabel" id="6505" style="cursor: pointer; text-decoration: line-through;" title="toggle category visibility">Public Opinion </span><span class="label label-primary categoryLabel" id="6503" style="cursor: pointer; text-decoration: none;" title="toggle category visibility"> In the World </span><span class="label label-primary categoryLabel" id="19588" style="cursor: pointer; text-decoration: none;" title="toggle category visibility">Economy </span><span class="label label-primary categoryLabel" id="62834" style="cursor: pointer; text-decoration: none;" title="toggle category visibility"></span> Culture <span class="label label-primary categoryLabel" id="62835" style="cursor: pointer; text-decoration: none;" title="toggle category visibility">COVID-19</span>
+
+            </div>
+            <small></small>
+        </div>
+    </div>
+
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+
+        <h6 class="border-bottom border-gray pb-2 mb-0">News Feed</h6>
+
+
+
+
+        <div class="container no-gutters border-bottom  ">
+            <div class="row no-gutters">
+                <div class="col-md-auto ">
+                    <img class="mr-3" src="../img/img.png" alt="" width="48" height="48" padding = "2"></div>
+                <div class="col">
+                    <p class="media-body pb-3 mb-0 middle lh-125 ">
+                        <strong class="d-block text-dark">Гинцбург прокомментировал данные о смерти испытателя вакцины AstraZeneca</strong>
+                        Клинические испытания вакцины от коронавируса компании AstraZeneca продолжатся после смерти участника испытаний, если будет доказано, что смерть добровольца не связана с введением препарата, сообщили «РИА Новости» с ссылкой... </p>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col no-gutters">
+                    <span class="datas">22-10-2020 14:29:43</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container no-gutters border-bottom  ">
+            <div class="row no-gutters">
+                <div class="col-md-auto ">
+                    <img class="mr-3" src="../img/img.png" alt="" width="48" height="48" padding = "2"></div>
+                <div class="col">
+                    <p class="media-body pb-3 mb-0 middle lh-125 ">
+                        <strong class="d-block text-dark">Гинцбург прокомментировал данные о смерти испытателя вакцины AstraZeneca</strong>
+                        Клинические испытания вакцины от коронавируса компании AstraZeneca продолжатся после смерти участника испытаний, если будет доказано, что смерть добровольца не связана с введением препарата, сообщили «РИА Новости» с ссылкой... </p>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col no-gutters">
+                    <span class="datas">22-10-2020 14:29:43</span>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="container no-gutters border-bottom  ">
+            <div class="row no-gutters">
+                <div class="col-md-auto ">
+                    <img class="mr-3" src="../img/img.png" alt="" width="48" height="48" padding = "2"></div>
+                <div class="col">
+                    <p class="media-body pb-3 mb-0 middle lh-125 ">
+                        <strong class="d-block text-dark">Гинцбург прокомментировал данные о смерти испытателя вакцины AstraZeneca</strong>
+                        Клинические испытания вакцины от коронавируса компании AstraZeneca продолжатся после смерти участника испытаний, если будет доказано, что смерть добровольца не связана с введением препарата, сообщили «РИА Новости» с ссылкой... </p>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col no-gutters">
+                    <span class="datas">22-10-2020 14:29:43</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container no-gutters border-bottom  ">
+            <div class="row no-gutters">
+                <div class="col-md-auto ">
+                    <img class="mr-3" src="../img/img.png" alt="" width="48" height="48" padding = "2"></div>
+                <div class="col">
+                    <p class="media-body pb-3 mb-0 middle lh-125 ">
+                        <strong class="d-block text-dark">Гинцбург прокомментировал данные о смерти испытателя вакцины AstraZeneca</strong>
+                        Клинические испытания вакцины от коронавируса компании AstraZeneca продолжатся после смерти участника испытаний, если будет доказано, что смерть добровольца не связана с введением препарата, сообщили «РИА Новости» с ссылкой... </p>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col no-gutters">
+                    <span class="datas">22-10-2020 14:29:43</span>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="container no-gutters border-bottom  ">
+            <div class="row no-gutters">
+                <div class="col-md-auto ">
+                    <img class="mr-3" src="../img/img.png" alt="" width="48" height="48" padding = "2"></div>
+                <div class="col">
+                    <p class="media-body pb-3 mb-0 middle  lh-125 ">
+                        <strong class="d-block text-dark">Эдвард Сноуден получил бессрочный вид на жительство в России</strong>
+                        Бывший сотрудник Агентства национальной безопасности (АНБ) США Эдвард Сноуден получил бессрочный вид на жительство в России. Об этом ТАСС в четверг сообщил его адвокат Анатолий Кучерена </p>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col no-gutters">
+                    <span class="datas">22-10-2020 14:29:43</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container no-gutters border-bottom  ">
+            <div class="row no-gutters">
+                <div class="col-md-auto ">
+                    <img class="mr-3" src="../img/img.png" alt="" width="48" height="48" padding = "2"></div>
+                <div class="col">
+                    <p class="media-body pb-3 mb-0 middle lh-125 ">
+                        <strong class="d-block text-dark">Эдвард Сноуден получил бессрочный вид на жительство в России</strong>
+                        Бывший сотрудник Агентства национальной безопасности (АНБ) США Эдвард Сноуден получил бессрочный вид на жительство в России. Об этом ТАСС в четверг сообщил его адвокат Анатолий Кучерена </p>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col no-gutters">
+                    <span class="datas">22-10-2020 14:29:43</span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <small class="d-block text-right mt-3">
+
+            <a href="#">All News</a>
+
+        </small>
+    </div>
+
+
+    </div>
+
+
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="offcanvas.js"></script>
+
+
+<div class="mini-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="copyright-text">
+                    <p>© 2020
+                        <a href="#">CharsNews</a>
+                        <a href="#"></a>
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+
+
+
+
+
+
+
+</main>
+
+
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

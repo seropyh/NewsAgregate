@@ -1,0 +1,137 @@
+!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://java.com/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="Jekyll v4.1.1">
+
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/offcanvas/">
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+    <link rel="stylesheet" th:href="@{/css/fontawesome.all}"/>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}"/>
+    <link rel="stylesheet" th:href="@{/css/offcanvas.css}"/>
+
+    <!-- Bootstrap core CSS -->
+    <script src="https://kit.fontawesome.com/8135b01ab7.js" crossorigin="anonymous"></script>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <script src="https://kit.fontawesome.com/8135b01ab7.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <img src="/images/logo.png"  ref="/"  width="219" height="50" padding = "2">
+    <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Main <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/registration">Sign up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/authorization">Sign in</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/greeting">Share News</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="enter" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<div class="nav-scroller bg-white shadow-sm">
+
+</div>
+
+<main role="main" class="container  ">
+            <div class="d-flex align-items-center p-3 my-3 rounded   ">
+
+                <div class=" h-100 d-block  align-items-center  shadow-sm mx-auto p-5">
+
+<h1 class=" m-1 mx-auto text-center">Sing In</h1>
+
+<form th:action="@{/authorization}" th:object="${form}" method="post">
+    <div class="form-group">
+        <label>Login</label>
+        <input type="text" name="login" th:field="*{login}" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" name="password" th:field="*{password}" class="form-control">
+    </div>
+    <div class="form-group d-block mx-auto text-center "  style="width: 200px;">
+    <button type="submit" class="btn btn-primary m-1 mx-auto text-center"> Submit</button>
+    </div>
+</form>
+
+<div th:if="${error}">You entered an incorrect username / password</div>
+<div th:if="${user}">You are registered as <span th:text="${user.login}"></span></div>
+
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+                </div>
+
+            </div>
+
+
+
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+
+    <div class="mini-footer navbar-fixed-bottom fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                        <p>© 2020
+                            <a href="#">CharsNews</a>
+                            <a href="#"></a>
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</main>
+
+
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
