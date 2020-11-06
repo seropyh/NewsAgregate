@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+</head>
+<body>
+<div>
+
+    <form th:action="@{/}" method="POST" th:object="${msgs}">
+        <input type="text" name="name"/><input type="submit"  value="addRow"></input>
+        <table>
+            <tr th:each="msg : ${msgs}">
+                <td>
+                    <span  th:text="${msg.getTitle()}"></span>
+                    <!--/*@thymesVar id="msg" type=""*/-->
+                    <span  th:text="${msg.getContent()}"></span>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</div>
+</body>
+</html>

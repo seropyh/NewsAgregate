@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,41 +10,69 @@
     <title>Новостной агрегатор</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/offcanvas/">
+<<<<<<< Updated upstream
     <link rel="stylesheet" type="text/css" href="../static/css/fontawesome.all">
     <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../static/css/main.css">
 
+=======
+    <link rel="stylesheet" th:href="@{/css/main.css}" />
+    <link rel="stylesheet" th:href="@{/css/fontawesome.all}" />
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}" />
+    <link rel="stylesheet" th:href="@{/css/offcanvas.css}" />
+>>>>>>> Stashed changes
 
     <!-- Bootstrap core CSS -->
     <script src="https://kit.fontawesome.com/8135b01ab7.js" crossorigin="anonymous"></script>
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
+<<<<<<< Updated upstream
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" th:href="@{../static/css/main.css}"/>
     <!-- Custom styles for this template -->
     <link href="../static/css/offcanvas.css" rel="stylesheet">
+=======
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+    <!-- Custom styles for this template -->
+
+>>>>>>> Stashed changes
     <script src="https://kit.fontawesome.com/8135b01ab7.js" crossorigin="anonymous"></script>
 </head>
 
-
 <body class="bg-light">
+<<<<<<< Updated upstream
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
     <img class="mr-3" src="../img/logo.png  " alt="" width="219" height="50" padding = "2"></div>
     <!-- <a class="navbar-brand mr-auto mr-lg-0" href="#">НОВОСТНОЙ АГРЕГАТОР </a> -->
+=======
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <img src="/images/logo.png"  ref="/"  width="219" height="50" padding = "2">
+
+>>>>>>> Stashed changes
     <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
+<<<<<<< Updated upstream
                 <a class="nav-link" href="#">Новости</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Блог</a>
+=======
+                <a class="nav-link" href="/blog">Blog</a>
+>>>>>>> Stashed changes
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Вход</a>
@@ -60,6 +89,7 @@
     </div>
 </nav>
 
+<<<<<<< Updated upstream
 <div class="nav-scroller bg-white shadow-sm">
 
 </div>
@@ -184,31 +214,40 @@
                 </div>
 
             </div>
+=======
+<main role="main" class="container">  <div class="d-flex align-items-center p-3 my-3 rounded   ">
+    <table class="table">
+        <thead>
+        <tr>
+            <td scope="row">Date of publication</td>
+            <td scope="row">News</td>
+            <td scope="row">News Source</td>
+        </tr>
+        </thead>
+        <tbody th:each="n : ${Story}">
+        <tr>
+            <td th:text="${new java.util.Date(n.published * 1000)}" scope="col"></td>
+            <td th:text="${n.title}" scope="col"></td>
+            <td th:text="${n.shortURL}" scope="col"></td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="mini-footer bg-dark">
+        <div class="container">
+>>>>>>> Stashed changes
             <div class="row">
-                <div class="col no-gutters">
-                    <span class="datas">22-10-2020 14:29:43</span>
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                        <p>© 2020
+                            <a href="#">CharsNews</a>
+                            <a href="#"></a>
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </div>
-
-        <div class="container no-gutters border-bottom  ">
-            <div class="row no-gutters">
-                <div class="col-md-auto ">
-                    <img class="mr-3" src="../img/img.png" alt="" width="48" height="48" padding = "2"></div>
-                <div class="col">
-                    <p class="media-body pb-3 mb-0 middle lh-125 ">
-                        <strong class="d-block text-dark">Эдвард Сноуден получил бессрочный вид на жительство в России</strong>
-                        Бывший сотрудник Агентства национальной безопасности (АНБ) США Эдвард Сноуден получил бессрочный вид на жительство в России. Об этом ТАСС в четверг сообщил его адвокат Анатолий Кучерена </p>
-
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col no-gutters">
-                    <span class="datas">22-10-2020 14:29:43</span>
-                </div>
-            </div>
-        </div>
+<<<<<<< Updated upstream
 
 
 
@@ -218,43 +257,22 @@
     </div>
 
 
+=======
+>>>>>>> Stashed changes
     </div>
+    </footer>
+
+</div>
 
 
 </main>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-<script src="offcanvas.js"></script>
-
-
-<div class="mini-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="copyright-text">
-                    <p>© 2020
-                        <a href="#">CharsNews</a>
-                        <a href="#"></a>
-                    </p>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-</div>
-</footer>
-
-
-
-
-
 
 <!--
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#">ItNordic</a>
 </nav>
 
+<<<<<<< Updated upstream
 <main role="main" class="container">
 
     <div class="starter-template">
@@ -267,7 +285,17 @@
 
 </main>
 <!-- /.container -->
+=======
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script>
+    window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')
+</script>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="offcanvas.js"></script>
+>>>>>>> Stashed changes
 
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>

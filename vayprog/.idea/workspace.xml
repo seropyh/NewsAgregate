@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< Updated upstream
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ea3277-35c0-4dcb-bed5-252c39ca9005" name="Default Changelist" comment="" />
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="1985224b-b550-41f4-9605-bf891902a2e1" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< Updated upstream
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -18,6 +24,10 @@
         <option value="HTML File" />
       </list>
     </option>
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+>>>>>>> Stashed changes
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -26,13 +36,19 @@
       </MavenGeneralSettings>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectId" id="1jhACIzkv3AOlOAAonrlTxEhliR" />
+=======
+  <component name="ProjectId" id="1jmd75gwF52Qm81I6zCOdOlGSfz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< Updated upstream
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -100,10 +116,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+>>>>>>> Stashed changes
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< Updated upstream
       <changelist id="22ea3277-35c0-4dcb-bed5-252c39ca9005" name="Default Changelist" comment="" />
       <created>1604245820776</created>
       <option name="number" value="Default" />
@@ -115,6 +138,14 @@
       <workItem from="1604326878398" duration="3417000" />
       <workItem from="1604330545100" duration="1154000" />
       <workItem from="1604331720025" duration="26213000" />
+=======
+      <changelist id="1985224b-b550-41f4-9605-bf891902a2e1" name="Default Changelist" comment="" />
+      <created>1604413030538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604413030538</updated>
+      <workItem from="1604413032061" duration="19000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -122,6 +153,7 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< Updated upstream
     <state x="0" y="196" key="#Inspections" timestamp="1604329156862">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -218,5 +250,11 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="328" y="202" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1604327937172" />
+=======
+    <state x="547" y="130" key="FileChooserDialogImpl" timestamp="1604413048333">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="547" y="130" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1604413048333" />
+>>>>>>> Stashed changes
   </component>
 </project>
