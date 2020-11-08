@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4891570a-82c6-4d9d-8d28-95af50d5f28e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/ContextConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/Greeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/GreetingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/ListMsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/Msg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/NewsagregateApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/controller/AuthorizationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/controller/MsgController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/controller/NewsContextWebSearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/controller/NewsPostBloombergNewsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/controller/NewsRestBloombergNewsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/controller/RegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/controller/UsersController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/dto/FormUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/model/BloomNews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/model/BloombergNews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/model/ContentTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/model/Module.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/model/NewsBlog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/model/Reading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/model/Story.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsagregate/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/2823.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/6261.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/logoF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/tt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/offcanvas.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/NewsBloomberg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/NewsContextSearch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/authorization.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blogs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/blo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/newsagregate/NewsagregateApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newsagregate/NewsagregateApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newsagregate/ServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newsagregate/controller/AuthorizationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newsagregate/controller/RegistrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newsagregate/controller/UsersController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newsagregate/controller/UsersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newsagregate/dto/FormUsers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newsagregate/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/newsagregate/NewsagregateApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jyMoc4ucNkOtlrJf5qE9jjML3Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="JUnit.All in newsagregate (1)">
+    <configuration name="All in newsagregate (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="newsagregate" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in newsagregate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="newsagregate" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.newsagregate.controller in newsagregate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="newsagregate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.newsagregate.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.newsagregate.controller" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in newsagregate (1)" />
+        <item itemvalue="JUnit.All in newsagregate" />
+        <item itemvalue="JUnit.com.example.newsagregate.controller in newsagregate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4891570a-82c6-4d9d-8d28-95af50d5f28e" name="Default Changelist" comment="" />
+      <created>1604772058894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604772058894</updated>
+      <workItem from="1604772060073" duration="308000" />
+      <workItem from="1604772459372" duration="213000" />
+      <workItem from="1604772975960" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1604772117033">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1604772117033" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1604772672352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604772672352" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1604772672351">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604772672351" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1604772672351">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604772672351" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1604772672352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604772672352" />
+  </component>
+</project>
