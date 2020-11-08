@@ -58,50 +58,43 @@
 <div class="nav-scroller bg-white shadow-sm"></div>
 <main role="main" class="container  ">
     <div class="d-flex align-items-center p-3 my-3 rounded   ">
-        <div class=" h-100 d-block  align-items-center  shadow-sm mx-auto p-5">
-            <h1 class=" m-1 mx-auto text-center">Registration</h1>
-            <form th:action="@{/registration}" th:object="${form}" method="post">
-                <div class="form-group">
-                    <label>login</label>
-                    <input type="text" name="login" th:field="*{login}" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label>Password</label>
-                    <input type="password" name="password" th:field="*{password}" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label>Age</label>
-                    <input type="number" name="age" th:field="*{age}" class="form-control">
-                </div>
-                <div class="form-group d-block mx-auto  text-center "  style="width: 200px;">
-                    <button type="submit" class="btn btn-primary m-1 mx-auto text-center"> Submit</button>
-                </div>
-            </form>
-            <div th:if="${error}" style="align-items: center">This username already exists.</div>
-            <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-                    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-                    crossorigin="anonymous"></script>
-        </div>
+        <table class="table">
+            <thead>
+            <tr>
+                <td scope="row">Date of publication</td>
+                <td scope="row">News</td>
+                <td scope="row">News Source</td>
+            </tr>
+            </thead>
+            <tbody th:each="n : ${Story}">
+            <tr>
+                <td th:text="${new java.util.Date(n.published * 1000)}" scope="col"></td>
+                <td th:text="${n.title}" scope="col"</td>
+                <td th:text="${n.shortURL}" scope="col"></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"></script>
-    <div class="mini-footer navbar-fixed-bottom fixed-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="copyright-text">
-                        <p>© 2020
 
-                            <a href="#">CharsNews</a>
-                            <a href="#"></a>
-                        </p>
-                    </div>
+</main>
+<div class="mini-footer col-sm-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="copyright-text">
+                    <p>© 2020
+
+                        <a href="#">CharsNews</a>
+                        <a href="#"></a>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-</main>
+</div>
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

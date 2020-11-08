@@ -22,15 +22,15 @@ public class AuthorizationController {
         if (!UsersController.users.containsKey(form.getLogin())) {
             model.addAttribute("error", true);
             model.addAttribute("form", new FormUsers());
-            return "authorization";
+            return "redirect:/authorization";
         } else if (!form.getPassword().equals(UsersController.users.get(form.getLogin()).getPassword())) {
             model.addAttribute("error", true);
             model.addAttribute("form", new FormUsers());
-            return "authorization";
+            return "redirect:/authorization";
         } else {
             model.addAttribute("form", new FormUsers());
             model.addAttribute("user", UsersController.users.get(form.getLogin()));
-            return "index";
+            return "redirect:/";
         }
     }
 

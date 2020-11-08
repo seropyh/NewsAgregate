@@ -14,9 +14,11 @@
     <title>Add news</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/offcanvas/">
-    <link rel="stylesheet" type="text/css" href="../static/css/fontawesome.all">
-    <link rel="stylesheet" type="text/css" href="../../../../../../../TESTPROJECT/NewsAgregate/vayprog/vayprog/src/main/resources/static/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../../../../../../../TESTPROJECT/NewsAgregate/vayprog/vayprog/src/main/resources/static/css/main.css">
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+    <link rel="stylesheet" th:href="@{/css/fontawesome.all}"/>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}"/>
+    <link rel="stylesheet" th:href="@{/css/offcanvas.css}"/>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -26,10 +28,6 @@
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" th:href="@{../static/css/main.css}"/>
-
-
-
 
     <!-- Custom styles for this template -->
     <link href="../../../../../../../TESTPROJECT/NewsAgregate/vayprog/vayprog/src/main/resources/static/css/offcanvas.css" rel="stylesheet">
@@ -82,7 +80,7 @@
         <p th:text="'id: ' + ${greeting.id}" />
         <p th:text="'content: ' + ${greeting.content}" />
         <a href="/greeting">Submit another message</a></div>-->
-
+    <a class= "btn-primary m-1 mx-auto text-center" href="/list_blo">Click here to list all contacts</a>
 </main>
 
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"

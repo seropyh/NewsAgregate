@@ -27,7 +27,7 @@ public class RegistrationController {
             UsersController.users.put(form.getLogin(), new User(form.getLogin(), form.getPassword(), form.getAge()));
             model.addAttribute("form", new FormUsers());
             model.addAttribute("user", UsersController.users.get(form.getLogin()));
-            return "authorization";
+            return "redirect:/authorization";
         }
     }
 

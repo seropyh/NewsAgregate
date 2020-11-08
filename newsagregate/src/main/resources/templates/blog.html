@@ -1,13 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head>
-
-    <title th:text="${title}"/>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+          crossorigin="anonymous">
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll v4.1.1">
@@ -15,21 +14,23 @@
     <title>Registration</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/offcanvas/">
-    <link rel="stylesheet" th:href="@{/css/main.css}"/>
-    <link rel="stylesheet" th:href="@{/css/fontawesome.all}"/>
-    <link rel="stylesheet" th:href="@{/css/bootstrap.css}"/>
-    <link  rel="stylesheet" th:href="@{/css/offcanvas.css}"/>
+    <link rel="stylesheet" th:href="@{/css/main.css}" />
+    <link rel="stylesheet" th:href="@{/css/fontawesome.all}" />
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}" />
+    <link rel="stylesheet" th:href="@{/css/offcanvas.css}" />
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+          crossorigin="anonymous">
 
     <!-- Bootstrap core CSS -->
     <script src="https://kit.fontawesome.com/8135b01ab7.js" crossorigin="anonymous"></script>
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
 
     <script src="https://kit.fontawesome.com/8135b01ab7.js" crossorigin="anonymous"></script>
 </head>
@@ -38,7 +39,7 @@
 <body class="bg-light">
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
 
-    <img src="/images/logo.png"  ref="/"  width="219" height="50" padding = "2">
+    <img src="/images/logo.png" ref="/" width="219" height="50" padding="2">
 
     <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
         <span class="navbar-toggler-icon"></span>
@@ -50,9 +51,6 @@
 
                 <a class="nav-link" href="/">Main <span class="sr-only">(current)</span></a>
 
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">News</a>
             </li>
             <li class="nav-item">
 
@@ -72,7 +70,8 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="text" placeholder="enter" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0 border border-danger text-danger bg-light" type="submit">Search</button>
+            <button class="btn btn-outline-success my-2 my-sm-0 border border-danger text-danger bg-light"
+                    type="submit">Search</button>
         </form>
     </div>
 </nav>
@@ -85,7 +84,6 @@
     <div class="d-flex align-items-center p-3 my-3 rounded   ">
 
 
-
         <section id="blog">
             <div class="container">
 
@@ -94,7 +92,8 @@
                         <h2>
                             <span class="ion-minus"></span>Blog<span class="ion-minus"></span>
                         </h2>
-                        <p></p><br>
+                        <p></p>
+                        <br>
                     </div>
                 </div>
 
@@ -114,113 +113,21 @@
                             <div class="item active">
                                 <div class="row">
 
-                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" th:each="blog : ${blogs}">
                                         <div class="card text-center">
-
-
-                                            <img class="card-img-top" src="/images/6261.jpg" alt="" height="180" padding = "2">
+                                            <img class="card-img-top" src="/images/6261.jpg" alt="" height="180" padding="2">
                                             <div class="card-block">
-                                                <h4  th:text="'' + ${greeting.title}" class="card-title">What Victorian-era seaweed pressings reveal about our changing seas
-                                                </h4>
-                                                <p th:text="'' + ${greeting.content}" class="card-text p-1">A ‘women’s pastime’ practised by Queen Victoria, ‘seaweeding’ spread from the UK to California – now the samples are providing a glimpse into history</p>
+                                                <h4 th:text="'' + ${blog.title}" class="card-title"></h4>
+                                                <p th:text="'' + ${blog.content}" class="card-text p-1"></p>
                                                 <a class="btn btn-default" href="#">Read More</a>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                        <div class="card text-center">
-
-                                            <img class="card-img-top" src="/images/6261.jpg" alt="" height="180" padding = "2">
-                                            <div class="card-block">
-                                                <h4  th:text="'' + ${greeting.title}" class="card-title">What Victorian-era seaweed pressings reveal about our changing seas
-                                                </h4>
-                                                <p th:text="'' + ${greeting.content}" class="card-text p-1">A ‘women’s pastime’ practised by Queen Victoria, ‘seaweeding’ spread from the UK to California – now the samples are providing a glimpse into history</p>
-                                                <a class="btn btn-default" href="#">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                        <div class="card text-center">
-                                            <img class="card-img-top" src="/images/2823.jpg" alt="" height="180" padding = "2">
-                                            <div class="card-block">
-                                                <h4 class="card-title">
-                                                    Amy Coney Barrett confirmed to supreme court in major victory for US conservatives</h4>
-                                                <p class="card-text p-1">The US Senate has confirmed Amy Coney Barrett to the supreme court, delivering Donald Trump a huge but partisan victory just eight days before</p>
-                                                <a class="btn btn-default" href="#">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                        <div class="card text-center">
-                                            <img class="card-img-top" src="/images/2823.jpg" alt="" height="180" padding = "2">
-                                            <div class="card-block">
-                                                <h4 class="card-title">
-                                                    Amy Coney Barrett confirmed to supreme court in major victory for US conservatives</h4>
-                                                <p class="card-text p-1">The US Senate has confirmed Amy Coney Barrett to the supreme court, delivering Donald Trump a huge but partisan victory just eight days before</p>
-                                                <a class="btn btn-default" href="#">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    mr
-
-
-                                </div> <!-- row -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="row mfg">
-
-                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                        <div class="card text-center">
-                                            <img class="card-img-top" src="/images/tt.jpg " alt="" height="180" padding = "2">
-                                            <div class="card-block">
-                                                <h4 class="card-title">Coronavirus live news: Germany 'could hit 20,000 new infections within days'; protests flare in Italy</h4>
-                                                <p class="card-text p-1">One of the world’s leading Covid-19 experimental vaccines produces an immune response in older adults as well as the young, its developers say, raising hopes of protection for those most</p>
-                                                <a class="btn btn-default" href="#">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                        <div class="card text-center">
-                                            <img class="card-img-top" src="/images/tt.jpg " alt="" height="180" padding = "2">
-                                            <div class="card-block">
-                                                <h4 class="card-title">Coronavirus live news: Germany 'could hit 20,000 new infections within days'; protests flare in Italy</h4>
-                                                <p class="card-text p-1">One of the world’s leading Covid-19 experimental vaccines produces an immune response in older adults as well as the young, its developers say, raising hopes of protection for those most</p>
-                                                <a class="btn btn-default" href="#">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                        <div class="card text-center">
-                                            <img class="card-img-top" src="/images/tt.jpg " alt="" height="180" padding = "2">
-                                            <div class="card-block">
-                                                <h4 class="card-title">Coronavirus live news: Germany 'could hit 20,000 new infections within days'; protests flare in Italy</h4>
-                                                <p class="card-text p-1">One of the world’s leading Covid-19 experimental vaccines produces an immune response in older adults as well as the young, its developers say, raising hopes of protection for those most</p>
-                                                <a class="btn btn-default" href="#">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                        <div class="card text-center">
-                                            <img class="card-img-top" src="/images/tt.jpg " alt="" height="180" padding = "2">
-                                            <div class="card-block">
-                                                <h4 class="card-title">Coronavirus live news: Germany 'could hit 20,000 new infections within days'; protests flare in Italy</h4>
-                                                <p class="card-text p-1">One of the world’s leading Covid-19 experimental vaccines produces an immune response in older adults as well as the young, its developers say, raising hopes of protection for those most</p>
-                                                <a class="btn btn-default" href="#">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div> <!-- row -->
-                            </div> <!-- item -->
-
+                                </div>
+                                <!-- row -->
+                            </div>
+                            <!-- item -->
 
                         </div>
                     </div>
@@ -256,12 +163,6 @@
 </div>
 
 
-
-
-
-
-
-
 </main>
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
@@ -270,4 +171,5 @@
 
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
